@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.body-content{
+    height: 160px;
+}
+footer{
+    background-color: rgb(19, 19, 63);
+    color: white;
+    position: relative;
+    width: auto;
+}
+.footer-top{
+    padding: 0 100px; 
+}
+.align-to-center{
+    display: flex;
+    justify-content: center;
+}
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px 0px;
+    padding: 30px;
+    background: linear-gradient(120deg, purple, blue);
+    color: white;
+    width: 85%;
+    
+    position: absolute;
+    top: -90px;
+}
+.footer-logo{
+    display: flex;
+    gap: 10px;
+}
+.footer-header_content-one{
+    display: flex;
+    flex-direction: column;
+}
+.footer-header_content-one .contain h1{
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+.footer-header_content-two{
+    /* line-height: 1.5; */
+    color: white;
+    /* border-color: white; */
+}
+.btn-1{
+    border-color: white;
+    border-radius: 18px;
+    padding: 7px;
+    background-color: rgb(22, 18, 34);
+    color: white;
+}
+.btn-2{
+    background-color: rgba(240, 248, 255, 0.027);
+    margin-top: 10px;
+    border-color: white;
+    border-radius: 18px;
+    padding: 7px;
+    color: white;
+}
+/* STYLING FOOTER LOGO */
+.footer-logo{
+  margin-top: 127px;
+}
+h4{
+    color: grey;
+}
+
+/* STYLING FOOTER CONTENTS */
+
+
+.footer-content{
+    /* border: 2px solid; */
+    display: flex;
+    margin-top: 30px;
+    gap: 70px;
+}
+.footer-content_one{
+    /* border: 2px solid black; */
+}
+.footer-content_one p{
+    margin-top: 10px;
+}
+.footer-content_two p{
+    margin-top: 10px;
+}
+.footer-content_three p{
+    margin-top: 10px;
+}
+.footer-content_four p{
+    margin-top: 10px;
+}
+.footer-content_five p{
+    margin-top: 10px;
+}
+.footer-content_five p{
+    margin-top: 10px;
+}
+.footer-content_six p{
+    margin-top: 10px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-color: grey;
+}
+/* STYLING FOOTER BOTTOM */
+.footer-bottom{
+    padding: 0 100px;
+    padding-bottom: 15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom_p{
+    display: flex;
+    gap: 20px;
+}
+.botton button{
+    background-color: rgba(240, 248, 255, 0.116);
+    border-radius: 10px;
+    border-color: white;
+    padding: 2px 3px;
+    color: rgb(119, 119, 119);
+}
+
